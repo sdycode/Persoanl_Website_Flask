@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.content{
+   position: relative;
+    overflow:scroll;
+    max-height: 200px;
+}
+
+.content .images{
+    height: 100%;
+    width: 100%;
+
+}
+
+.images .img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.btm-sliders{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+
+.btm-sliders span{
+    height: 50px;
+    width: 200px;
+    background-color:white;
+    margin: 0 3px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  
+  html,body {
+  height: 100%;
+}
+  
+.bg {
+  /* The image used */
+ 
+  background-image:linear-gradient(rgba(103, 103, 224, 0.7), rgba(126, 207, 174, 0.7));
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ h1{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate; */
+  /* -moz-animation: glow 1s ease-in-out infinite alternate; */
+   /* animation: glow 1s ease-in-out infinite alternate; */
+}
+h2{
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin-bottom: 10px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #95f08d, 0 0 40px #646dec, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+    /* h1{
+      text-align: center;
+      font-size: 50px;
+      margin-top: 30px;
+      color: rgb(80, 235, 222);
+     text
+    } 
+    h2{
+      text-align: center;
+      font-size: 80px;
+      margin-bottom: 15px;
+      color: rgb(157, 248, 206);
+    }*/
+    .appsbtn{
+      border-width: 35px;
+      border-color: white;
+      border-right-color: rgb(250, 234, 203);
+      border-bottom-color: rgb(241, 182, 72);
+      font-size: 60px;
+      margin-left: 200px;
+      float: left;
+      border-radius: 30px;
+      text-shadow: maroon;
+      padding: 30px;
+      background-color: rgb(221, 247, 108);
+    }
+    .gamesbtn{
+      border-width: 35px;
+      border-color: white;
+      border-right-color: rgb(169, 250, 169);
+      border-bottom-color: rgba(46, 231, 62, 0.87);
+      font-size: 60px;
+      margin-right: 200px;
+      float: right;
+      border-radius: 30px;
+      text-shadow: maroon;
+      padding: 30px;
+      background-color: rgb(120, 233, 120);
+    }
+
+    .box{
+      height: 170px;
+      background-image: url('https://media.istockphoto.com/photos/colorful-background-picture-id1280385511?b=1&k=20&m=1280385511&s=170667a&w=0&h=4-KMkIqgyw2gTBMTBbYZVZoidwRsWZzr3q0xyUDYhas=');
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      margin-bottom: 50px;
+      /* padding: 10px; */
+    }
+   
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apps and Games !</title>
+</head>
+<body class="bg" img src="/static/images/bg1.jpg">
+    <div class="box">
+    <h1 >Welcome to</h1>
+    <h2 >Mine World</h2>
+  </div>
+  <a href="appList.html">
+    <button type="button" class="appsbtn"> Apps</button>
+  </a>
+<!-- <a href="/asia.html">Asia</a><br> -->
+    <button type="button" class="gamesbtn">Games</button>
+</body>
+</html>
+
