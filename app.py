@@ -17,7 +17,10 @@ def chats():
 @app.route('/appList.html')
 def appList():
     return render_template('appList.html')
-
+    
+@app.route('/youtube.html')
+def youtube():
+    return render_template('youtube.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
